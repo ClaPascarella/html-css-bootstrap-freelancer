@@ -38,3 +38,49 @@
     opacity: 1;
 }
 
+
+.mynavbar {
+    display: block;
+}
+
+.mynavbar2 {
+    display: none;
+}
+
+
+@media all and (min-width: 700px) {
+
+    .mynavbar {
+        display: none;
+    }
+    
+    .mynavbar2 {
+        display: block;
+    }
+
+}
+
+@media all and (min-width: 900px) {
+
+    
+    .mynavbar {
+        display: none;
+    }
+    
+    .mynavbar2 {
+        display: block;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    
+    .mynavbar {
+        display: none;
+    }
+    
+    .mynavbar2 {
+        display: block;
+    }
+
+}
